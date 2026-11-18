@@ -83,10 +83,6 @@ Real answer (18 Nov 2026): `nn_pregnancy_week(week=12, section="تغذیه")` re
 - Article and week text is capped at about 6,000 characters per item. Not checked: topic pages beyond page 3 and very old topics with deleted posts.
 - Works from an Iranian IP and through a foreign proxy in testing, with no captcha. The server ignores system proxy variables on purpose; set `NINISITE_MCP_PROXY` if your network needs one.
 
-## How it works
-
-Ninisite has no public API. The pages were mapped by watching ninisite.com in Chrome, and every tool was then checked in Chrome against the real rendered pages (forums, forum and hot topics, topic, article categories, articles, article, pregnancy weeks) on 18 Nov 2026. The server reads the same public HTML through a Chrome-impersonating HTTP client, with a short cache and at most two requests at a time.
-
 ## فارسی
 
 <div dir="rtl">
